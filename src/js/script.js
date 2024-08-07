@@ -1,46 +1,5 @@
-const users = [
-  {
-    name: "Max",
-    eyeColor: "blue",
-    gender: "male",
-    isActive: true,
-    email: "maxhohotyn@gmail.com",
-    age: 15,
-  },
-  {
-    name: "Vlad",
-    eyeColor: "green",
-    gender: "male",
-    isActive: false,
-    email: "vledtop@gmail.com",
-    age: 20,
-  },
-  {
-    name: "Ann",
-    eyeColor: "blue",
-    gender: "female",
-    isActive: true,
-    email: "annverta@gmail.com",
-    age: 10,
-  },
-  {
-    name: "Anton",
-    eyeColor: "red",
-    gender: "male",
-    isActive: false,
-    email: "anton@gmail.com",
-    age: 21,
-  },
-  {
-    id: 4,
-    name: "Alice ",
-    eyeColor: "drown",
-    gender: "female",
-    isActive: false,
-    email: "alicebrown@gmail.com",
-    age: 9,
-  },
-];
+import users from "/src/js/users.js";
+
 //1
 let userNames = users.map((user) => user.name);
 console.log(userNames);
