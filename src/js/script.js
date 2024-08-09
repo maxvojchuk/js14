@@ -1,4 +1,4 @@
-import users from "/src/js/users.js";
+import users from "./users.js";
 
 //1
 let userNames = users.map((user) => user.name);
